@@ -1,4 +1,5 @@
 #include<stdio.h>
+/*this is second comment*/
 int main(){
     int i;
     printf("enter any integer:");
@@ -10,4 +11,5 @@ int main(){
         scanf("%i",&i);
         
         }
+        printf("%d",i);
     }
