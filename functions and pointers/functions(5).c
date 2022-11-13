@@ -1,7 +1,21 @@
 #include<stdio.h>
-void maximum(int  i,int j,int x ){
+int p=10;
+void maximum(int  a,int b,int c ){
+    if ((a>b)&&(a>c)){
+        printf("%i",a);
+    }
+    else if((b>c)&&(b>a)){
+        printf("%i",b);
+    }
+    else if ((c>b)&&(c>a)){
+        printf("%i",c);
+    }
+    else {
+        printf("%i",a);
+    }
+    printf("%i",p);
     
-    printf(" great %i",i);
+    
 }
 int main(){
     int a,b,c;

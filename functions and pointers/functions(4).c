@@ -1,7 +1,7 @@
 #include<stdio.h>
 void multiplication(int i,int j,int k){
 
-    printf("%i %i %i\n",k*j*i);
+    printf(" %i \n",k*j*i);
 }
 int main(){
     int a=19;
