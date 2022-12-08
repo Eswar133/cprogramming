@@ -1,0 +1,101 @@
+						dec 8
+OPEARTORS AND EXPRESSIONS
+They are many opeartors and expressions which can be used with variables and constants to from expression.
+*Arthmetic opeartors:
+	This opeartors contains addition,subtraction,multiplication,division,modulus.
+	note:modulus =when two integers modulus result will be integer ,when one float and one integer result will be a float number.
+
+*relational opeartors:
+ 	This opeartors contains less than(<),greater than(>), less than or equal to (<=),greater than or equal to(>=).
+ 
+*equality opeartors:
+	This opeartors contain equal to(==) ,not equal to(!=).
+	
+*logical opeartors:
+ 	This opeartors contain logical And(&&), logical Or(||), logical Not(!).
+ 	
+*Unary opeartors:
+ 	This opeartors contain unary minus ,unary plus,increment opeartor,decrement opeartor.
+ 	
+*Conditional opeartors: 
+ 	This opeartors contain conditions.
+ 	
+*Assigned opeartors
+ 	This opeartors contain (=).
+ 	
+*Comma opeartors:
+	This opeartors contain comma (,).
+	
+*Bitwise opeartors
+	This opeartors contain bitwise AND(&),bitwise  OR(|),bitwise xor (^) bitwise not (~). 
+
+
+TYPING CONVERSION AND TYPE CASTING
+	These are used to change variable of one data type to another data type
+TYPE CONVERSION :
+	Type conversion is done when the expression has variable of different types .
+	example:
+	float x;
+	int y=3;
+	x=y;
+	x =integer converted to float after TYPE CONVERSION .
+TYPE CASTING:
+	This is known as forced conversion.
+	example:
+	float salary: 1000.00;
+	int sal:
+	sal:(int )salary;
+CONTROL STATEMENTS 
+	This contains "if" ,"else-if", "else","switch-case".
+	The above mention statements are used to writer statements which are controlable.
+	example:
+	if (a>10);
+	printf("a is bigger than 10");
+	else if (a<10);
+	printf("a is less than 10");
+	else 		// it has no separte condition if or else if conditions fall else condition execute.
+	printf("a is neither less or bigger ");
+	switch case 
+	switch(ch){
+		case 'a':
+		case 'A':
+			printf("%i",ch);
+		case 'i':
+		case 'I':
+			printf("%i",ch);
+		default:printf("%i",ch);
+	}
+ITERTIVE STATEMENTS
+	These are used to repeat the execution of  a sequence of statements These statements are three types:
+	*while loop
+	*do-while loop
+	*for loop
+WHILE LOOP
+	This loop provides a mechnism to repeat one or more statement while a particular condition is true.
+	syntax:
+	statement x;
+	while (condition){
+		statement block;
+		condition update;
+	}
+	statement y;
+	The loop is executed when the condtion is true if the condition is false then it jumps to statement y.
+	The while loop will excute as long as the condition is true .If the condition is never updated and the condition is never become
+	false, and then it run into infinite loop.
+	
+DO-WHILE LOOP	
+	The do-while is similar to while loop .The only differene is that in a do-while loop,the condition is tested at the end of the loop.
+	As the test condition is evaluted at the end ,this means the condition is executed at least one time"even if the condition is false"
+	syntax:
+	statement x;
+	do{
+	 	statement block;
+	 	while(condition);
+	}
+	statement y;
+	The loop is mainly used menu-driven programmes.
+	
+	
+	 
+
+
