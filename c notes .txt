@@ -94,8 +94,118 @@ DO-WHILE LOOP
 	}
 	statement y;
 	The loop is mainly used menu-driven programmes.
+BREAK AND CONTINUE STATEMENTS
+	Break is use to terminate the execution of the enclosing loop.
+	example:
+	#include<stdio.h>
+	int main(){
+		int i=0;
+		while (i<=10){
+			if (i==5)
+				break;
+			printf("%i",i);
+			i+=1;
+		}
+		return 0;
+	}
+	output:
+	0 1 2 3 4
+	if the condition (i==5 )the break statement is excuted and the control jumps to the statement following for loop.
+	continue statement when we found a continue word in any loop it just skip that particular statement:
+	example:
+	#include<stdio.h>
+	int main(){
+		int i=0;
+		while (i<=10){
+			if (i==5)
+				continue;
+			printf("%i",i);
+			i+=1;
+		}
+		return 0;
+	}
+	output:
+	0 1 2 3 4 6 7 8 9 10.
+	As we already said when i==5 the loop skiped that and excuted rest of number in this example.
+
+
+FUNCTIONS:
+	functions are used to do a certain number of times that time these are used while doing an project we have to do the same process again and aagin on the time these will be helpful like when we want to know prime number this functions are very much usable .They are four types of functionns :function with arugments and return vales.
+		     function with arguments and without return values.
+		     function with out arguments and return values.
+		     function with out arguments and with return values.
+	syntax(or)example:
+		#include<stdio.h>
+		int add(int p,int q){
+			int z=p+q;
+			return z; 
+		}
+		int main(){
+		int a=10;
+		int b=20;
+		int c=add(a,b);  //call by value 
+		printf("%i",c);
+		}
+	output:
+		30;
+	In this example we passing arguments in the function name add and declared two arguments as int p and int q in int main we just took a =10 and b=20 we pass these two to the funtion it returing us additon this is example of function with arugments and return values.
+like that we can also write the above mentioned examples.
+
+Call by value:
+	In that example function is called with its name this we can simply says as call by value,because it store the value so it is called call by value.
 	
+Call by reference:
+	In call by reference a function receives an implicit  reference to the argument,rather than a copy of its value.
+	syntax:
+		#include<stdio.h>
+		void add(int *);
+		int main(){
+			int num =2;
+			printf("%i",num);
+			add(&num);
+			printf("%i",num);
+			}
+		void add (int *n){
+			*n=*n+10;
+			printf("%i",*n);
+		}
+	call by reference stores the address of the value.
+POINTERS:
+	This are used  for the dynamic memory location of a variable.The declartion of the variable :
+	int *ptr=&10;it stores the adress of value 10 as we seen * symbol it is denoted as pointer ptr as considered as pointer name and we have to declare whether it is int or float or double means the pointer has to save the particular data type memory as we know size of data type is varies according to them like char 1 byte for integer 2 bytes and to store address pointers also have some space it is varies from one system to another system like 32 bit system to 64 bit system.pointers are also used in expression.
+
+
+Null pointers:
+	When nothing is stored inside a particular address it is called null pointer .It contains zero when a address is showing zero it is also called as null pointers.
+Genric pointers:
+	An void pointer is called a genric pointer void *ptr this pointer is called Genric pointers.
+Pointers to pointers:
+	when a pointer is stored another pointers adress it is called as pointers.
+	syntax:
+	 int x=10;
+	 int *px,**px;
+	 px=&x;
+	 ppx=&px;
+	 This is example of pointers to pointers.
+drawbacks of pointers.
+	If we use pointers as incorrectly it can lead to bugs .If we give a memory location wrong it end uup reading a wrong value .This may also to lead to os error (os damage.)
+	
+
+
+DATA STRUCTURES:
+Primitive and Non-primitive Datastructures.
+Primitive data structure are the fundamental data types which are supported by a programming language.
+Non primitive data structure are those data structures which are created using primitive data structure.Examples are linked lists ,stacks ,trees and graphs:These are again derived into linear and non-linear datastructures.
+Linear and Non-linear structures:
+If the elements of a data structure are stored in a lineat or sequential order,then it is a linear data structure.Example:linkedlists,arrays,stacks and queues, Linear ds can be represented in memory in two different ways .And Non-linear structure are non sequential order example: trees and  graphes.
+
+Arrays :
+An array is a collection of similar data elements .These data elements have the same data types.
+The elements of the arrays are stored in  consecutive memory location and are referenced by an index .
+ int marks[10];
+ the above statement int is datatype marks are variable named are marks array size are 10.In c language index 0 so it start from 0 1 2 3 4 5  6 7 8 9 upto nine we have use index to elements .
+*arrays are of fixed size.
+*Data elemetns are stored in contiguous memory  locations which may not be always available.
+*Insertion and deletion of elements can be problematic can be sloved because of shifitin of elements from their positions. 
 	
 	 
-
-
