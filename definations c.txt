@@ -1,0 +1,33 @@
+function:
+A function is a block of code which only runs when it is called.
+
+Run time Error:
+A run time error in a programm is an error that occurs while the program is running after being successfully complied.
+
+Break:
+The break statement terminates the execution of the nearest enclosing do , for , switch , or while statement in which it appears. 
+
+Continue:
+The continue statement passes control to the next iteration of the nearest enclosing do , for , or while statement in which it appears, bypassing any remaining statements in the do , for , or while statement body.
+
+Cache memory:
+supplementary memory system that temporarily stores frequently used instructions and data for quicker procession by the cpu.
+Types of cache memory:
+L1:it is also called as primary cache ,extreme fast but relatively small and is usually embedded in the processar chip as cip cache
+L2:it is secondary cache
+l3:it is specialized memory developed to improved the performance of L1 and L2
+
+Declartion of function:
+return type name of the function(arguments){
+	statement;
+	return type;
+}
+
+call by value:a convention where the caller evaluated the actual parameters and pass their values to the calle.
+call by reference:copies the address of an arguments into the formal parameters.
+
+Pointer:
+A pointer is a variable that stores the memory address of another variable as its value.
+
+Arrays: Array is collection of similar data types .
+arrays are linear means it stores the address  in static memory allocations in c . 
