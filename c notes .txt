@@ -207,5 +207,26 @@ The elements of the arrays are stored in  consecutive memory location and are re
 *arrays are of fixed size.
 *Data elemetns are stored in contiguous memory  locations which may not be always available.
 *Insertion and deletion of elements can be problematic can be sloved because of shifitin of elements from their positions. 
-	
+
+Length of an array:
+upper bond -lower bond+1;
+example:
+	2 5 6 7 9
+The bound for 2 is 0 ,5 is 1 and so on for 9 it is 5;
+formula for lenght of an arrys:
+	5-0+1;
+length of the array is :5;
+
+CALCULATING THE ADDRESS OF  ARRAY ELEMENTS:
+ As we know that the characterstics of arrays .
+ It is linear means which store the address in continuous like as we discuss above characteristics in above again we see this in example 
+ example:
+ 99 67 85 34 54 23 54
+ let assume the above elements is an array.
+ we can find the address of the if base address which means 99 has some address has like 1000.
+ we known that int has two bytes so if we want to find the address of the like if we want to find the address of the 85 we have to add +2 ,+2 for 1000.
+ so the address 85 is  1004.
+ 
+
+		
 	 
