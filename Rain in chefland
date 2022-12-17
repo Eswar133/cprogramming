@@ -1,0 +1,32 @@
+/*In Chefland, precipitation is measured using a rain gauge in millimetre per hour.
+
+Chef categorises rainfall as:
+
+    LIGHT, if rainfall is less than 33 millimetre per hour.
+    MODERATE, if rainfall is greater than equal to 33 millimetre per hour and less than 77 millimetre per hour.
+    HEAVY if rainfall is greater than equal to 77 millimetre per hour.
+
+Given that it rains at XX millimetre per hour on a day, find whether the rain is LIGHT, MODERATE, or HEAVY.*/
+//soultion:
+#include <stdio.h>
+
+int main(void) {
+	int t;
+	scanf("%i",&t);
+	while(t--){
+	    int a;
+	    scanf("%i",&a);
+        if(a<3){
+            printf("LIGHT\n");
+        }
+        else if(a>=3&&a<7){
+            printf("MODERATE\n");
+        }
+        else{
+            printf("HEAVY\n");
+        }
+	}
+	return 0;
+}
+
+

@@ -31,3 +31,10 @@ A pointer is a variable that stores the memory address of another variable as it
 
 Arrays: Array is collection of similar data types .
 arrays are linear means it stores the address  in static memory allocations in c . 
+
+data sizes in 32 and 64 bytes:
+Type Name	32–bit Size	64–bit Size
+char	 	1 byte	        1 byte
+int		2 bytes		4 bytes
+float		4 bytes		4 bytes
+double		8 bytes		8 bytes
